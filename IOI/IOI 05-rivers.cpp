@@ -1,6 +1,6 @@
 /*
 We can solve it using dp[node][res][las] where node is the last node, res is the number of nodes we can choose and las is the
-last chosen node. Now to distribute las on the children of node we can solve it using knapsack dp as the constraints are small
+last chosen node. Now to distribute res on the children of node we can solve it using knapsack dp as the constraints are small
 enough.
 */
 
