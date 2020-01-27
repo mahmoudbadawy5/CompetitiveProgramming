@@ -1,5 +1,5 @@
 /*
-We can calculate the answer for each vowel independtly. Let's say for a length l it appeared in x segments of this length
+We can calculate the answer for each vowel index independtly. Let's say for a length l it appeared in x segments of this length
 that will add x/l to the total answer. How many times does a letter in position i appeared in a segment of length l?
 it's min(l,n-l,i,n-i). We can split lengths to 3 parts. Ones with l<min(n-l,i,n-i) , ones with n-l < min(l,i,n-i)
 and ones with min(i,n-i) <= min(l,n-l) and calculate them independtly
