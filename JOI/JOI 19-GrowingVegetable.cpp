@@ -1,7 +1,7 @@
 /*
 Let's make a dp that puts the caracters one by one where dp[a][b][c][las] means we already place a Rs, b Gs and c Ys, last character
 was las.
-Now how to calculate the number of moves? Let's assume that the next place where we will put the next character is X.
+Now how to calculate the number of moves? Let's assume that the original place for the next character we will put is X.
 and from one of the other types we placed a characters while upto X we have b characters of it. then the a characters will remain
 and we need to make max(a-b,0) swaps to move the unwanted characters forward. We can calculate the cost using accumolative sum
 */
