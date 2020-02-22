@@ -1,5 +1,5 @@
 /*
-Let's denote the number needed of shoes needed from the range [i,i+d] to be dp[i]
+Let's denote the number needed of shoes needed from the range [i,i+d] to be dp[i] (and can't be done with size i-1)
 we can deduce that dp[i]=max(dp[i-1]-k,0) + need[i]
 We need to make sure that max(dp[i]) <= k*(d+1)
 We can notice that this is like calculating the maximum subarray sum if arr[i]=need[i]-k
